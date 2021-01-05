@@ -1,0 +1,13 @@
+Created a new react app using facebook's famous tool and then cleared out the unwanted files from the boiler
+project. Set the margin and padding to zero because React by default sets 10px to both.
+The first page of any website is it's login page so I started observing the login page of Spotify and made
+a plan according to it. It contained login through facebook, google, apple and phone number, but implementing
+all of them in this project would have been complex and maybe unnecessary so I stick to just ask the user
+to login through google.
+Designed the login page but faced problem getting a horizontal line tag <hr> so I continued without that
+thinking that it will be done later.
+Explored the spotify api and learned the authorization guide
+Fetched the access token from the url
+Learned a new thing that underscore should be put before temporary variables so as to distinguish them from
+local variables. Used a spotify api wrapper to store the token from spotify and used it to fetch the original 
+spotify user's details.
