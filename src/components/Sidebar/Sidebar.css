@@ -12,7 +12,13 @@
 
 .sidebar_logo {
     margin-right: auto;
-    object-fit: contain;
     height: 70px;
+    object-fit: contain;
     padding: 10px;
+}
+
+.sidebar_title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
 }
