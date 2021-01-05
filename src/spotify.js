@@ -14,6 +14,7 @@ const scopes = [
     "user-modify-playback-state"
 ];
 
+// extract token from the url after redirect
 export const getTokenFromUrl = () => {
     return window.location.hash.substring(1).split('&').reduce((initial, item) => {
         let parts = item.split('=');
@@ -23,5 +24,6 @@ export const getTokenFromUrl = () => {
     }, {});
 };
 
+// authorization url at which the request has to be made
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
     "%20")}&response_type=token&show_dialog=true`;

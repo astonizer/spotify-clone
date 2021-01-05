@@ -11,3 +11,4 @@ Fetched the access token from the url
 Learned a new thing that underscore should be put before temporary variables so as to distinguish them from
 local variables. Used a spotify api wrapper to store the token from spotify and used it to fetch the original 
 spotify user's details.
+Created state context and reducer for state management
