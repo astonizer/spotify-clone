@@ -6,6 +6,8 @@ import Sidebar from './Sidebar/Sidebar';
 import Body from './Body/Body';
 import Footer from './Footer/Footer';
 import SidebarOption from './Sidebar/SidebarOption/SidebarOption';
+import Header from './Body/Header/Header';
+import Song from './Body/Song/Song';
 
 export {
     App,
@@ -15,5 +17,7 @@ export {
     Sidebar,
     Body,
     Footer,
-    SidebarOption
+    SidebarOption,
+    Header,
+    Song
 };

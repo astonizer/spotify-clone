@@ -42,6 +42,15 @@ function App() {
           });
         })
         .catch(err => console.log(err));
+
+      spotify.getPlaylist()
+        .then(response => {
+          dispatch({
+            type: 'SET_DISCOVER_WEEKLY',
+            discover_weekly: response
+          });
+        })
+        .catch(err => console.log(err));
     }
   }, []);
 
